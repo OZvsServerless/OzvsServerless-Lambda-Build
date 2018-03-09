@@ -4,7 +4,7 @@ phases:
     commands:
       - npm install
       - npm run test
-      - aws cloudformation package --template-file template.yaml --s3-bucket oz-lambda-bucket
+      - aws cloudformation package --template-file template.yaml --s3-bucket lambda-oz-bucket
                                    --output-template-file output.yaml
 artifacts:
   type: zip
