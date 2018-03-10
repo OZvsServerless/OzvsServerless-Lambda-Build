@@ -4,7 +4,7 @@ Resources:
   AddReviewDocumentToList:
     Type: AWS::Serverless::Function
     Properties:
-      FunctionName: 'ReviewManagerLambda'
+      FunctionName: 'ReviewManagerLambda2'
       Description: 'Basic Implementation to sync S3 documents with review table in DynamoDB'
       Handler: index.handler
       Runtime: nodejs6.10
